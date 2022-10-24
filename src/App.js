@@ -50,12 +50,10 @@ function App() {
       <div className="scrabble-container"><span className="scrabble-tile__letter">E<span className="scrabble-tile__number">1</span></span></div>      
       <div className="scrabble-container"><span className="scrabble-tile__letter">R<span className="scrabble-tile__number">1</span></span></div>      
       </div>
-      <form>
         <input style={{margin: "25px", fontSize: "2rem", width: "80%"}} type="text" name="word" onChange={handleclick} placeholder="Enter word to analyse" />
         <div style={{margin: "25px", fontSize: "2rem"}}>Scrabble Score: {result}</div>        
         <div style={{margin: "25px", fontSize: "2rem"}}>Length: {textLength}</div>        
         <div style={{margin: "25px", fontSize: "2rem"}}>Unique Letters: {uniqueLetters}</div>        
-      </form>
     </div>
   );
 }
